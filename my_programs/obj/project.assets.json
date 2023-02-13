@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Мои репозитории\\control work\\control work.csproj",
-      "projectName": "control work",
-      "projectPath": "C:\\Мои репозитории\\control work\\control work.csproj",
+      "projectUniqueName": "C:\\Мои репозитории\\control work\\my_programs\\my_programs.csproj",
+      "projectName": "my_programs",
+      "projectPath": "C:\\Мои репозитории\\control work\\my_programs\\my_programs.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
-      "outputPath": "C:\\Мои репозитории\\control work\\obj\\",
+      "outputPath": "C:\\Мои репозитории\\control work\\my_programs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config"
