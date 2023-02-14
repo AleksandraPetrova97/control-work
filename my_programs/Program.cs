@@ -11,11 +11,16 @@ int getUserData(string message)
     return UserData;
 }
 
-int length = getUserData("Введите размерность массива");
+void printColor(string data, ConsoleColor color)
+{
+    Console.ForegroundColor = color;
+    Console.Write(data);
+    Console.ResetColor();
+}
 
 string [] Fillarray (int length)
 {
-    Console.Write($"Введите элемент: ");
+    printColor($"Введите элементы массива через enter: " , ConsoleColor.DarkCyan);
     string [] array = new string [length];
     for (int i = 0; i < length; i++)
     {
@@ -23,39 +28,40 @@ string [] Fillarray (int length)
     }
     return array;
 }
-string [] array = Fillarray(length);
-
 
 void sortArray(string [] array)
 {
-    Console.Write($" Измененный массив [");
+    printColor($"Измененный массив [", ConsoleColor.DarkGreen);
     string[] newarr = new string[array.Length];
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
         {
                 newarr[i] = array[i];
-                Console.Write($"{newarr[i]} ");
+                printColor($"{newarr[i]} " , ConsoleColor.DarkRed);
         }
     }
-    Console.Write($"]");
+    printColor($"]" , ConsoleColor.DarkGreen);
 }
     
-
 void printArray(string[] array)
 {
-    Console.Write($"Массив [");
+    printColor($"Массив [" , ConsoleColor.DarkMagenta);
     for (int i = 0; i < array.Length; i++)
     {
         if (i != array.Length -1)
         {
-        Console.Write($"{array[i]},");
+        printColor($"{array[i]}, " , ConsoleColor.DarkYellow);
         }
         else
         {
-        Console.WriteLine($"{array[i]}]");
+        printColor($"{array[i]} ]" , ConsoleColor.DarkMagenta);
         }
     }
 }        
+
+int length = getUserData("Введите размерность массива");
+string [] array = Fillarray(length);
 printArray(array);
+Console.WriteLine();
 sortArray(array);
