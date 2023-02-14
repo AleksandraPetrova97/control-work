@@ -11,6 +11,8 @@ int getUserData(string message)
     return UserData;
 }
 
+int length = getUserData("Введите размерность массива");
+
 string [] Fillarray (int length)
 {
     Console.Write($"Введите элемент: ");
@@ -21,9 +23,24 @@ string [] Fillarray (int length)
     }
     return array;
 }
+string [] array = Fillarray(length);
 
-int length = getUserData("Введите размерность массива");
-string [] array = Fillarray(5);
+
+void sortArray(string [] array)
+{
+    Console.Write($" Измененный массив [");
+    string[] newarr = new string[array.Length];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+                newarr[i] = array[i];
+                Console.Write($"{newarr[i]} ");
+        }
+    }
+    Console.Write($"]");
+}
+    
 
 void printArray(string[] array)
 {
@@ -39,6 +56,6 @@ void printArray(string[] array)
         Console.WriteLine($"{array[i]}]");
         }
     }
-}
-
+}        
 printArray(array);
+sortArray(array);
