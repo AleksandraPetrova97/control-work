@@ -1,0 +1,15 @@
+C:\Мои репозитории\control work\my_programs\bin\Debug\net6.0\my_programs.exe
+C:\Мои репозитории\control work\my_programs\bin\Debug\net6.0\my_programs.deps.json
+C:\Мои репозитории\control work\my_programs\bin\Debug\net6.0\my_programs.runtimeconfig.json
+C:\Мои репозитории\control work\my_programs\bin\Debug\net6.0\my_programs.dll
+C:\Мои репозитории\control work\my_programs\bin\Debug\net6.0\my_programs.pdb
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.csproj.AssemblyReference.cache
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.AssemblyInfoInputs.cache
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.AssemblyInfo.cs
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.csproj.CoreCompileInputs.cache
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.dll
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\refint\my_programs.dll
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.pdb
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\my_programs.genruntimeconfig.cache
+C:\Мои репозитории\control work\my_programs\obj\Debug\net6.0\ref\my_programs.dll

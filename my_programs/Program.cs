@@ -11,20 +11,23 @@ int getUserData(string message)
     return UserData;
 }
 
-string [] GetArray (int length, int start, int end)
+string [] Fillarray (int length)
 {
+    Console.Write($"Введите элемент: ");
     string [] array = new string [length];
     for (int i = 0; i < length; i++)
     {
-        array[i] = new Random().Next(start, end + 1);
+        array[i] = Console.ReadLine()!;
     }
     return array;
 }
 
+int length = getUserData("Введите размерность массива");
+string [] array = Fillarray(5);
 
 void printArray(string[] array)
 {
-    Console.Write($"В массиве [");
+    Console.Write($"Массив [");
     for (int i = 0; i < array.Length; i++)
     {
         if (i != array.Length -1)
@@ -33,7 +36,9 @@ void printArray(string[] array)
         }
         else
         {
-        Console.WriteLine($"{array[i]}] - {Sumnum} чётных чисел");
+        Console.WriteLine($"{array[i]}]");
         }
     }
 }
+
+printArray(array);
