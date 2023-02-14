@@ -32,7 +32,7 @@ string [] Fillarray (int length)
 void sortArray(string [] array)
 {
     printColor($"Измененный массив [", ConsoleColor.DarkGreen);
-    string[] newarr = new string[array.Length];
+    string [] newarr = new string[array.Length];
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
